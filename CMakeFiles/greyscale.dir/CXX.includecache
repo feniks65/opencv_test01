@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wojciech/Dropbox/pwr/magisterka/opencv_test01/greyscale.cpp
+opencv2/highgui/highgui.hpp
+/home/wojciech/Dropbox/pwr/magisterka/opencv_test01/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/wojciech/Dropbox/pwr/magisterka/opencv_test01/opencv2/imgproc/imgproc.hpp
+

@@ -111,6 +111,19 @@ erozja_dylatacja/fast:
 	$(MAKE) -f CMakeFiles/erozja_dylatacja.dir/build.make CMakeFiles/erozja_dylatacja.dir/build
 .PHONY : erozja_dylatacja/fast
 
+#=============================================================================
+# Target rules for targets named greyscale
+
+# Build rule for target.
+greyscale: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 greyscale
+.PHONY : greyscale
+
+# fast build rule for target.
+greyscale/fast:
+	$(MAKE) -f CMakeFiles/greyscale.dir/build.make CMakeFiles/greyscale.dir/build
+.PHONY : greyscale/fast
+
 # target to build an object file
 erozja_dylatacja.o:
 	$(MAKE) -f CMakeFiles/erozja_dylatacja.dir/build.make CMakeFiles/erozja_dylatacja.dir/erozja_dylatacja.o
@@ -126,6 +139,21 @@ erozja_dylatacja.s:
 	$(MAKE) -f CMakeFiles/erozja_dylatacja.dir/build.make CMakeFiles/erozja_dylatacja.dir/erozja_dylatacja.s
 .PHONY : erozja_dylatacja.s
 
+# target to build an object file
+greyscale.o:
+	$(MAKE) -f CMakeFiles/greyscale.dir/build.make CMakeFiles/greyscale.dir/greyscale.o
+.PHONY : greyscale.o
+
+# target to preprocess a source file
+greyscale.i:
+	$(MAKE) -f CMakeFiles/greyscale.dir/build.make CMakeFiles/greyscale.dir/greyscale.i
+.PHONY : greyscale.i
+
+# target to generate assembly for a file
+greyscale.s:
+	$(MAKE) -f CMakeFiles/greyscale.dir/build.make CMakeFiles/greyscale.dir/greyscale.s
+.PHONY : greyscale.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -134,10 +162,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... erozja_dylatacja"
+	@echo "... greyscale"
 	@echo "... rebuild_cache"
 	@echo "... erozja_dylatacja.o"
 	@echo "... erozja_dylatacja.i"
 	@echo "... erozja_dylatacja.s"
+	@echo "... greyscale.o"
+	@echo "... greyscale.i"
+	@echo "... greyscale.s"
 .PHONY : help
 
 

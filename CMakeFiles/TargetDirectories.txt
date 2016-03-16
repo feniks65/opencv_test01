@@ -1,1 +1,2 @@
 /home/wojciech/Dropbox/pwr/magisterka/opencv_test01/CMakeFiles/erozja_dylatacja.dir
+/home/wojciech/Dropbox/pwr/magisterka/opencv_test01/CMakeFiles/greyscale.dir
